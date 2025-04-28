@@ -561,7 +561,7 @@
     }
   }
   &__subtitle {
-    max-width: 642px;
+    max-width: 58%;
   }
   &__images {
     display: flex;
@@ -1107,6 +1107,13 @@
       display: block;
       margin-bottom: 8px;
       color: rgba(233, 225, 215, 0.7);
+    }
+  }
+  &__address {
+    a {
+      &::before {
+        width: 100% !important;
+      }
     }
   }
   &__socials {
